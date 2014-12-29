@@ -29,6 +29,7 @@ public class Guide extends Activity implements OnPageChangeListener {
 		setContentView(R.layout.guide);
 		initViews();
 		initDots();
+		System.out.println();
 	}
 
 	private void initViews() {
